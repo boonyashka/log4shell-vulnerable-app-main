@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/aiproj-1.3.json",
+    "Version": "1.3",
+    "ProjectName": "log4shell-vulnerable-app-main",
+    "ProgrammingLanguages": [
+        "Java"
+    ],
+    "ScanModules": [
+        "StaticCodeAnalysis"
+    ],
+    "UseSastRules": false,
+    "UseCustomPmRules": false,
+    "UseSecurityPolicies": false,
+    "SkipGitIgnoreFiles": false,
+    "JavaSettings": {
+        "Parameters": "",
+        "UnpackUserPackages": false,
+        "UserPackagePrefixes": "",
+        "Version": "17",
+        "UsePublicAnalysisMethod": true,
+        "DownloadDependencies": true,
+        "CustomParameters": "--log-level debug",
+        "DependenciesPath": "java-dep"
+    }
+}
